@@ -9,9 +9,8 @@
     <!-- favicon -->
     <link rel="icon" href="{% static 'favicon.ico' %}">
     {% vite_hmr_client %}
-    {% vite_legacy_polyfills %}
     {% vite_react_refresh %}
-    {% vite_asset 'src/main.jsx' %}
+    {% vite_asset 'src/main.tsx' %}
     {% block extra_css %}{% endblock %}
 </head>
 <body>
